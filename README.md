@@ -1,82 +1,31 @@
-# 🎧📚 SQL Database Projects Collection
+# Bookstore and BeatBox — SQL Practice
 
-## 📌 Overview
-This repository contains **two MySQL database projects** developed for DBMS lab practice and academic submission:
+MySQL database exercises covering a bookstore and a music store.
 
-1. 📚 Bookstore Management System
-2. 🎧 Beatbox Music Database System
+For the main portfolio overview, see [SQL Database Projects](https://github.com/sangeethareddy9/SQL-Projects).
 
-Both projects demonstrate real-world database design using tables, relationships, joins, and SQL queries.
+## Files
 
----
+| Project | Practice file | Diagram |
+| --- | --- | --- |
+| Bookstore | [bookstore1.txt](bookstore1.txt) | [Bookstore ER diagram](BookstoreER_Diagram.jpeg) |
+| BeatBox music store | [beatbox1.txt](beatbox1.txt) | [BeatBox ER diagram](BeatBox_ER_diagram.jpeg) |
 
-# 📚 1. Bookstore Management System
+## Concepts
 
-## 🗂️ Description
-A database system for managing an online bookstore, including books, authors, customers, and orders.
+Relational tables, primary and foreign keys, filtering, aggregates, joins and subqueries.
 
-## 🛠️ Features
-- Authors & Categories management
-- Book inventory system
-- Customer management
-- Order processing system
-- SQL queries (easy, aggregate, join, subqueries)
+The bookstore domain includes authors, categories, customers, books, orders and order items. The music-store domain includes artists, genres, listeners, albums, purchases, purchase details and reviews.
 
-## 📌 Tables
-- Authors  
-- Categories  
-- Customers  
-- Books  
-- Orders  
-- Order_Items  
+## Use the examples
 
----
+1. Open the practice files to inspect the statements and recorded results.
+2. Use a separate MySQL practice database.
+3. Copy only SQL statements, removing terminal prompts and output if present.
+4. Run table creation before inserts, then try the queries.
 
-## 📊 SQL Concepts Used
-- WHERE (Filtering)
-- BETWEEN / IN conditions
-- COUNT, SUM, AVG (Aggregation)
-- GROUP BY
-- INNER JOIN
-- Subqueries
+These text files should be reviewed before execution; do not import an entire terminal transcript as a SQL script. Inspect any database-deletion statements before running them.
 
----
+## Author
 
-# 🎧 2. Beatbox Music Database System
-
-## 🗂️ Description
-A music store database system that manages artists, genres, listeners, albums, purchases, and reviews.
-
-## 🛠️ Features
-- Artist management
-- Music genres
-- Listener profiles
-- Album catalog
-- Purchase tracking
-- Review system
-
-## 📌 Tables
-- Artists  
-- Music_Genres  
-- Listeners  
-- Albums  
-- Purchases  
-- Purchase_Details  
-- Reviews  
-
----
-
-## 📊 SQL Concepts Used
-- WHERE filtering queries
-- BETWEEN / IN conditions
-- COUNT, SUM, AVG with GROUP BY
-- JOIN across multiple tables
-- Subqueries (MAX, IN conditions)
-
----
-
-# 🚀 How to Run These Projects
-
-## Step 1: Open MySQL
-```bash
-mysql -u root -p
+[Sangeetha Chirla](https://github.com/sangeethareddy9)
